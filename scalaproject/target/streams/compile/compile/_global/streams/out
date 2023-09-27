@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: C:\Users\JuanK\UdeM\scalaproject\src\main\scala\Main.scala:6:86 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m6 |[0m    println(product.getName() + [31m" $"[0m+ product.getPrice() + [31m" "[0m + product.getQuantity()[31m"\n"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                                                      ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                                    ')' expected, but string literal found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
