@@ -1,0 +1,30 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[error] java.lang.NumberFormatException: For input string: ""
+[error] 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+[error] 	at java.base/java.lang.Integer.parseInt(Integer.java:675)
+[error] 	at java.base/java.lang.Integer.parseInt(Integer.java:781)
+[error] 	at scala.io.StdIn.readInt(StdIn.scala:122)
+[error] 	at scala.io.StdIn.readInt$(StdIn.scala:117)
+[error] 	at scala.io.StdIn$.readInt(StdIn.scala:241)
+[error] 	at Main$package$.hello(Main.scala:17)
+[error] 	at hello.main(Main.scala:3)
+[error] 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[error] 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+[error] 	at sbt.Run.invokeMain(Run.scala:144)
+[error] 	at sbt.Run.execute$1(Run.scala:94)
+[error] 	at sbt.Run.$anonfun$runWithLoader$5(Run.scala:121)
+[error] 	at sbt.Run$.executeSuccess(Run.scala:187)
+[error] 	at sbt.Run.runWithLoader(Run.scala:121)
+[error] 	at sbt.Defaults$.$anonfun$bgRunTask$6(Defaults.scala:1988)
+[error] 	at sbt.Defaults$.$anonfun$termWrapper$2(Defaults.scala:1927)
+[error] 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[error] 	at scala.util.Try$.apply(Try.scala:213)
+[error] 	at sbt.internal.BackgroundThreadPool$BackgroundRunnable.run(DefaultBackgroundJobService.scala:367)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:1623)
+[error] (Compile / run) java.lang.NumberFormatException: For input string: ""
+[error] Total time: 2 s, completed 8/10/2023, 9:20:08 p. m.
+[debug] > Exec(idea-shell, None, None)
